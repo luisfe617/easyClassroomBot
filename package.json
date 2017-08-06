@@ -7,12 +7,17 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "tsc || heroku local web"
   },
   "dependencies": {
+    "@types/firebase": "^2.4.31",
+    "@types/node-telegram-bot-api": "^0.27.0",
     "ejs": "2.5.6",
-    "express": "4.15.2"
+    "express": "4.15.2",
+    "firebase": "^4.2.0",
+    "node-telegram-bot-api": "^0.27.1",
+    "typescript": "^2.4.2",
+    "typings": "^2.1.1"
   },
   "devDependencies": {
     "request": "^2.81.0",

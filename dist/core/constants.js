@@ -1,0 +1,40 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Constants;
+(function (Constants) {
+    Constants.InlineQueries = {
+        STUDENT_QUERIES: {
+            SET_STUDENTCODE: 'SET_STUDENTCODE',
+            SET_STUDENTEMAIL: 'SET_STUDENTEMAIL',
+            SET_STUDENTDB: 'SET_STUDENTDB',
+            SET_CONFIRMDATA: 'SET_CONFIRMDATA'
+        },
+        FIREBASE_QUERIES: {
+            CM_GETDATAFROMFIREBASE: 'CM_GETDATAFROMFIREBASE'
+        }
+    };
+    Constants.EntitiesDB = {
+        ASSISTANCE: 'assistance/',
+        CONFIGURATION: 'configuration/',
+        COURSES: 'courses/',
+        HOMEWORK: 'homework/',
+        STUDENTS: 'students/',
+        STUDENTCOURSES: 'studentCourses/',
+        STUDENTHOMEWORK: 'studentHomeWork/',
+        UNIVERSITIES: 'universities/',
+        UNIVERSITYCOURSES: 'universityCourses/',
+        USERS: 'users/'
+    };
+    Constants.AppStates = {
+        START: '/start',
+        CANCEL: '/cancel',
+        STUDENT: {
+            SIGN_IN: '/signIn',
+            SIGN_IN_CONFIRMATION: '/signInConfirm',
+            SET_CODE: '/setCode',
+            SET_CODE_CONFIRMATION: '/setCodeConfirm',
+            SET_EMAIL: '/setEmail'
+        }
+    };
+})(Constants = exports.Constants || (exports.Constants = {}));
+//# sourceMappingURL=constants.js.map
